@@ -1,0 +1,170 @@
+@use './partials/variables' as *;
+@use './partials/mixins' as *;
+
+.hero{
+    background-color: $ts-beige;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5rem;
+
+    &__left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title{
+        color: $ts-blue;
+    }
+
+    &__description{
+        color: $ts-blue;
+        font-size: $body-font;
+        padding: 1.5rem 0;
+    }
+
+    &__button{
+        background-color: $ts-orange;
+        color: $white;
+        border: none;
+        padding: 0.5rem;
+        width: 7rem;
+        border-radius: 1rem;
+        font-size: $body-font;
+    }
+
+    &__img{
+        width: 16rem;
+        // height: 20rem;
+    }
+
+
+}
+
+
+.rec{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+
+    &__header{
+        color: $ts-blue;
+        font-size: 1.25rem;
+    }
+
+    &__link{
+        text-decoration: none;
+    }
+    &__card{
+        height: 15rem;
+        width: 10rem;
+        color: $white;
+        padding: 0.5rem;
+        margin: 0 1rem;
+        border-radius: 5px;
+        border: 1px solid rgba(black, 0.2);
+        box-shadow: 0 4px 4px rgba(black,0.2);
+        
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        &__title{
+            font-size: 1rem;
+        }
+    }
+    &__center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+}
+
+.card{
+    &--hawaii{
+        background-image: url('../assets/images/hawaii.jpg');
+        background-size: cover;
+    }
+    &--iceland{
+        background-image: url('../assets/images/iceland.jpg');
+        background-size: cover;
+    }
+    &--greece{
+        background-image: url('../assets/images/greece.jpg');
+        background-size: cover;
+    }
+}
+
+
+.footer{
+    padding: 2rem 4rem;
+    background-color: $ts-beige;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contact{
+
+    &__title{
+        margin-bottom: 1rem;
+        color: $ts-blue;
+        font-size: 1rem;
+    }
+
+    &__label{
+        @include label;
+    }
+
+    &__description{
+        font-size: 0.75rem;
+        color: $ts-blue;
+    }
+}
+
+.hours{
+    
+    &__title{
+        margin-bottom: 1rem;
+        color: $ts-blue;
+        font-size: 1rem;
+    }
+
+    &__label{
+        @include label;
+    }
+
+    &__description{
+        font-size: 0.75rem;
+        color: $ts-blue;
+    }
+
+    &__bottom{
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+.social{
+    &__title{
+        margin-bottom: 1rem;
+        color: $ts-blue;
+        font-size: 1rem;
+    }
+    &__bottom{
+        display: flex;
+        gap: 1rem;
+    }
+    &__link{
+        text-decoration: none;
+        color: $ts-blue;
+    }
+    &__img{
+        height: 1rem;
+    }
+
+    
+}

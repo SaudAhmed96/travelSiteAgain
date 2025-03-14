@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 * {
@@ -36,4 +37,8 @@ html {
 }
 .nav__link--selected {
   border-bottom: 3px solid #DB7A4E;
+}
+.nav__item {
+  font-size: 0.75rem;
+  margin-bottom: 0.375rem;
 }/*# sourceMappingURL=global.css.map */

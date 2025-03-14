@@ -1,1 +1,139 @@
-/*# sourceMappingURL=main.css.map */
+.hero {
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem;
+}
+.hero__left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero__title {
+  color: #335576;
+}
+.hero__description {
+  color: #335576;
+  font-size: 12px;
+  padding: 1.5rem 0;
+}
+.hero__button {
+  background-color: #DB7A4E;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.5rem;
+  width: 7rem;
+  border-radius: 1rem;
+  font-size: 12px;
+}
+.hero__img {
+  width: 16rem;
+}
+
+.rec {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 3rem;
+}
+.rec__header {
+  color: #335576;
+  font-size: 1.25rem;
+}
+.rec__link {
+  text-decoration: none;
+}
+.rec__card {
+  height: 15rem;
+  width: 10rem;
+  color: #FFFFFF;
+  padding: 0.5rem;
+  margin: 0 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.rec__card__title {
+  font-size: 1rem;
+}
+.rec__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card--hawaii {
+  background-image: url("../assets/images/hawaii.jpg");
+  background-size: cover;
+}
+.card--iceland {
+  background-image: url("../assets/images/iceland.jpg");
+  background-size: cover;
+}
+.card--greece {
+  background-image: url("../assets/images/greece.jpg");
+  background-size: cover;
+}
+
+.footer {
+  padding: 2rem 4rem;
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.contact__title {
+  margin-bottom: 1rem;
+  color: #335576;
+  font-size: 1rem;
+}
+.contact__label {
+  color: #DB7A4E;
+  font-size: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.contact__description {
+  font-size: 0.75rem;
+  color: #335576;
+}
+
+.hours__title {
+  margin-bottom: 1rem;
+  color: #335576;
+  font-size: 1rem;
+}
+.hours__label {
+  color: #DB7A4E;
+  font-size: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.hours__description {
+  font-size: 0.75rem;
+  color: #335576;
+}
+.hours__bottom {
+  display: flex;
+  gap: 1rem;
+}
+
+.social__title {
+  margin-bottom: 1rem;
+  color: #335576;
+  font-size: 1rem;
+}
+.social__bottom {
+  display: flex;
+  gap: 1rem;
+}
+.social__link {
+  text-decoration: none;
+  color: #335576;
+}
+.social__img {
+  height: 1rem;
+}/*# sourceMappingURL=main.css.map */
