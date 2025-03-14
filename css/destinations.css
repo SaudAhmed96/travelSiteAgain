@@ -58,4 +58,7 @@
   width: 100%;
   text-align: center;
   font-size: 0.75rem;
+}
+.card:hover {
+  border: 2px solid rgba(219, 122, 78, 0.5);
 }/*# sourceMappingURL=destinations.css.map */

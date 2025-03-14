@@ -38,11 +38,18 @@ html{
         color:black;
 
         &--logo{
+            text-decoration: none;
+            margin: 0 0.5rem;
+            color:black;
             color: $ts-blue;
             font-weight: bold;
         }
 
         &--selected{
+            border-bottom: 3px solid $ts-orange;
+        }
+
+        &:hover{
             border-bottom: 3px solid $ts-orange;
         }
     }

@@ -32,6 +32,7 @@
         width: 7rem;
         border-radius: 1rem;
         font-size: $body-font;
+        cursor: pointer;
     }
 
     &__img{
@@ -72,6 +73,10 @@
 
         &__title{
             font-size: 1rem;
+        }
+
+        &:hover{
+            border:2px solid rgba($ts-orange, 0.5);
         }
     }
     &__center{

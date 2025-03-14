@@ -26,6 +26,7 @@
   width: 7rem;
   border-radius: 1rem;
   font-size: 12px;
+  cursor: pointer;
 }
 .hero__img {
   width: 16rem;
@@ -58,6 +59,9 @@
 }
 .rec__card__title {
   font-size: 1rem;
+}
+.rec__card:hover {
+  border: 2px solid rgba(219, 122, 78, 0.5);
 }
 .rec__center {
   display: flex;

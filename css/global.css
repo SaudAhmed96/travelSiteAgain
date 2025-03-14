@@ -32,10 +32,16 @@ html {
   color: black;
 }
 .nav__link--logo {
+  text-decoration: none;
+  margin: 0 0.5rem;
+  color: black;
   color: #335576;
   font-weight: bold;
 }
 .nav__link--selected {
+  border-bottom: 3px solid #DB7A4E;
+}
+.nav__link:hover {
   border-bottom: 3px solid #DB7A4E;
 }
 .nav__item {
