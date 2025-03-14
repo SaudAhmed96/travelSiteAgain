@@ -1,3 +1,6 @@
+@use './partials/variables' as *;
+@use './partials/mixins' as *;
+
 html{
     font-size: 16px;
 }
@@ -12,6 +15,7 @@ html{
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 3rem;
+    background-color: #FFFFFF;
 
     &__left{
         display: flex;
@@ -19,7 +23,7 @@ html{
     }
 
     &__logo{
-
+        color: $ts-blue;
     }
 
     &__list{
@@ -30,5 +34,15 @@ html{
     &__link{
         text-decoration: none;
         margin: 0 0.5rem;
+        color:black;
+
+        &--logo{
+            color: $ts-blue;
+            font-weight: bold;
+        }
+
+        &--selected{
+            border-bottom: 3px solid $ts-orange;
+        }
     }
 }

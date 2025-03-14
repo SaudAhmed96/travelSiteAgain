@@ -12,10 +12,14 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 3rem;
+  background-color: #FFFFFF;
 }
 .nav__left {
   display: flex;
   align-items: center;
+}
+.nav__logo {
+  color: #335576;
 }
 .nav__list {
   display: flex;
@@ -24,4 +28,12 @@ html {
 .nav__link {
   text-decoration: none;
   margin: 0 0.5rem;
+  color: black;
+}
+.nav__link--logo {
+  color: #335576;
+  font-weight: bold;
+}
+.nav__link--selected {
+  border-bottom: 3px solid #DB7A4E;
 }/*# sourceMappingURL=global.css.map */
